@@ -29,7 +29,7 @@
 
 ### Dev script:
 
-- Will ensure the deletion of the dev & cache folders and will start your project in a default port 3000.
+- Will start a local server in port 3000 and  ensure the deletion of the previous dev & cache folders .
 - You can change the deault port by setting different port number instead of 3000 just change the `-p 3000` to your desire port.
 
 ```json

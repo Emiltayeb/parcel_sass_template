@@ -52,14 +52,14 @@
 
 ## Babel polyfill:
 
-To polyfill array methods and Async / await , uncomment line 6 and 7
+To polyfill new javascript featuers
 
 ```javascript
 import "babel-polyfill/";
 import "core-js/stable";
 ```
-
-this will make parcel polyfill Javascript newer features such as `promise` and `Array.prototype.filter, Array.prototype.map ect..`
+ 
+this will make parcel polyfill features such as `promise` and `Array.prototype.filter, Array.prototype.map ect..`  back to es5.
 
 ## Gsap
 

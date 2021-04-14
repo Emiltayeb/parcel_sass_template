@@ -19,8 +19,8 @@
 
 ### Dev script:
 
-- will ensure the deletion of the dev & cache folders and will start your project in aa default port 3000.
-- you can change the port by seething different port number instead of 3000.
+- Will ensure the deletion of the dev & cache folders and will start your project in a default port 3000.
+- You can change the deault port by setting different port number instead of 3000 just change the `-p 3000` to your desire port.
 
 ```json
 
@@ -30,9 +30,9 @@
 
 ### Build script:
 
--wil build your project files & assets into one bundle, again by removing cache folders and the previous build version.
+-Will build your project files & assets into one bundle, again by removing cache folders and the previous build version.
 
--- you can customized the output directory by chaing the `--out-dir` command
+-- You can customized the output directory by chaing the `--out-dir` command
 
 -- The `--public-url` is crucial for making sure that in the build command we get a relative path to our assets.
 

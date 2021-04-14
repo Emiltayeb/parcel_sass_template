@@ -1,4 +1,4 @@
-// css
+// sass
 import "./sass/project-name.scss";
 import gsap from "gsap";
 
@@ -7,7 +7,7 @@ import gsap from "gsap";
 // import "core-js/stable";
 
 function init() {
-  console.log(gsap);
+  // demo animation
 
   const tl = gsap.timeline({
     defaults: {
@@ -35,10 +35,6 @@ function init() {
       duration: 2,
     });
 }
-//   const elements = gsap.utils.toArray(".content");
-//  ,elements.forEach((element) => {
-//     gsap.from(element, { y: 20, opacity: 0 });
-//   });
-// }
+
 // ! init
 init();

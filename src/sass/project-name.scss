@@ -1,7 +1,6 @@
 @import "./config";
 @import "./local";
 
-
 body {
   background: $primary-color;
   color: white;
@@ -88,12 +87,5 @@ img {
     font-weight: 500;
 
     margin-top: 10rem;
-    padding: 5rem;
-    border-radius: 15px;
-
-    &::after,
-    ::before {
-      content: "”";
-    }
   }
 }

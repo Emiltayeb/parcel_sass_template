@@ -65,7 +65,7 @@ this will make parcel polyfill features such as `promise` and `Array.prototype.f
 
 This template comes with gsap installed for the intro animation.
 
-if you wish to remove to library, simply run
+if you wish to remove the library, simply run:
 
 ```
 npm uninstall gsap

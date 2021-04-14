@@ -30,11 +30,11 @@
 
 ### Build script:
 
--Will build your project files & assets into one bundle, again by removing cache folders and the previous build version.
+- Will build your project files & assets into one bundle, again by removing cache folders and the previous build version.
 
--- You can customized the output directory by chaing the `--out-dir` command
+- You can customized the output directory by chaing the `--out-dir` command
 
--- The `--public-url` is crucial for making sure that in the build command we get a relative path to our assets.
+- The `--public-url` is crucial for making sure that in the build command we get a relative path to our assets.
 
 ```json
 "build": "rm -rf ./dist && rm -rf ./.cache && parcel build public/index.html --out-dir dist --public-url ./"

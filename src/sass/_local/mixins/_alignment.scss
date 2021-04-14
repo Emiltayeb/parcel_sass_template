@@ -1,0 +1,15 @@
+@mixin center--x--y {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin center--x($top) {
+  position: absolute;
+  left: 50%;
+
+  @if ($top) {
+    top: $top;
+  }
+  transform: translateX(-50%);
+}

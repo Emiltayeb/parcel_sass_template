@@ -1,0 +1,10 @@
+@mixin flexbox($flexType, $justifyContent, $alignItems) {
+  display: -webkit-box; // old
+  display: -moz-box; // old
+  display: -ms-flexbox; // ie
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: $flexType;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}

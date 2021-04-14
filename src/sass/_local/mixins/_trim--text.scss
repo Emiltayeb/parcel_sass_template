@@ -1,0 +1,7 @@
+@mixin trim-text($max-width) {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: $max-width;
+}

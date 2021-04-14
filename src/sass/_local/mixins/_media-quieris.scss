@@ -1,0 +1,25 @@
+@mixin for-mobile {
+  @media ($mobile--bp) {
+    @content;
+  }
+}
+@mixin for-small--screens-up {
+  @media ($small--screens--bp) {
+    @content;
+  }
+}
+@mixin for-desktop-up {
+  @media ($desktop--up--bp) {
+    @content;
+  }
+}
+@mixin for-big--desktop-up {
+  @media ($big-desktop--up--bp) {
+    @content;
+  }
+}
+@mixin custom--bp($break1, $break2) {
+  @media (max-width: $break1) and (max-width: $break2) {
+    @content;
+  }
+}

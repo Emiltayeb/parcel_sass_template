@@ -1,0 +1,99 @@
+@import "./config";
+@import "./local";
+
+
+body {
+  background: $primary-color;
+  color: white;
+}
+img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.section {
+  padding: 20px;
+  text-align: center;
+
+  h1,
+  h2,
+  p {
+    font-weight: lighter;
+  }
+
+  h1 {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+    @include for-small--screens-up {
+      font-size: 60rem;
+    }
+    @include for-mobile {
+      font-size: 50rem;
+      font-weight: 300;
+    }
+  }
+  h2 {
+    &::first-letter {
+      text-transform: uppercase;
+    }
+    @include for-small--screens-up {
+      font-size: 30rem;
+    }
+    @include for-mobile {
+      font-size: 20rem;
+      font-weight: 300;
+    }
+  }
+
+  h3 {
+    font-size: 30rem;
+    margin-top: 15rem;
+  }
+}
+.content {
+  // background: chartreuse;
+  margin-top: 40rem;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+
+  @include for-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  p {
+    @include for-small--screens-up {
+      font-size: 20rem;
+    }
+    @include for-mobile {
+      font-size: 15rem;
+    }
+  }
+  img {
+    max-height: 150px;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+
+    @include for-mobile {
+      max-height: 80px;
+    }
+  }
+
+  .quote {
+    font-weight: 500;
+
+    margin-top: 10rem;
+    padding: 5rem;
+    border-radius: 15px;
+
+    &::after,
+    ::before {
+      content: "”";
+    }
+  }
+}

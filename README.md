@@ -1,4 +1,4 @@
-# Parcel bundler template, integrated with "Sass" and Babel polyfill plugin
+# Parcel bundler template, integrated with Sass and Babel polyfill plugin
 
 ![pacrel image](./src/assets/images/parcelBg.gif)
 

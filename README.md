@@ -11,9 +11,7 @@
 ## instructions:
 
 - download the zip or clone the repo
-- run `npm start`. this will install the necessary dependencies
-
-## Start & Dev scripts
+- install the node modules by running `npm install` or `npm i ` from your terminal
 
 <br>
 

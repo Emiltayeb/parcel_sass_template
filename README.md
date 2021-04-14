@@ -59,7 +59,7 @@ import "babel-polyfill/";
 import "core-js/stable";
 ```
 
-this will make parcel polyfill Javascript newer features such as `promise` and `Array.prototype.filter ,Array.prototype.map ect..`
+this will make parcel polyfill Javascript newer features such as `promise` and `Array.prototype.filter, Array.prototype.map ect..`
 
 ## Gsap
 
